@@ -15,7 +15,7 @@ class Calculator:
     factor = 2  # class attribute
 
     def __init__(self, offset: int = 0):
-        self.offset = offset  # instance attribute
+        self.offset = offset + self.factor  # instance attribute
 
     def add(self, a: int, b: int) -> int:
         """Instance method: uses instance attributes."""

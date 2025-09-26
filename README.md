@@ -1,37 +1,56 @@
-# OOP Examples
+# Python Scripts - Main Project Folder
 
-This folder contains simple, focused Python scripts demonstrating core object-oriented programming (OOP) concepts.
+This is the main project folder for the Python Learning Examples collection. The examples have been organized into logical subfolders for better navigation and learning progression.
 
-Files:
+## 📁 Current Structure
 
-- `function_method.py` - example of module-level functions, nested functions, and class methods (already present).
-- `oop_basics.py` - instance methods, class methods, static methods, class/instance attributes.
-- `inheritance_polymorphism.py` - base class, derived classes, method overriding and polymorphism.
-- `encapsulation_example.py` - private attributes, properties, deposit/withdraw example.
-- `abstraction_interface.py` - abstract base class (`abc.ABC`) with concrete implementation.
-- `dataclass_example.py` - using `@dataclass` and frozen dataclass.
-- `composition_example.py` - composition relationship (Car has an Engine).
-- `magic_methods.py` - demonstrates `__str__`, `__add__`, `__len__`, `__eq__`.
-- `exceptions_example.py` - custom exception class usage.
-
-How to run:
-
-Open a terminal in this folder and run any example with Python 3:
-
-```bash
-python oop_basics.py
-python inheritance_polymorphism.py
-python encapsulation_example.py
-python abstraction_interface.py
-python dataclass_example.py
-python composition_example.py
-python magic_methods.py
-python exceptions_example.py
-python function_method.py
+```
+python-scripts/
+├── basics/           # Basic Python operations and file handling
+├── oop/             # Object-Oriented Programming examples
+├── data-science/    # Data analysis and visualization libraries
+├── utilities/       # System utilities and helper functions
+├── games/           # Game development examples (coming soon)
+├── gui/             # GUI application examples (coming soon)
+├── Examples/        # Legacy folder (being phased out)
+├── logs/            # Log files and output (auto-generated)
+├── .venv/           # Virtual environment (created during setup)
+├── requirements.txt # Python dependencies
+└── README.md        # This file
 ```
 
-Requirements:
+## 🚀 Quick Start
 
-- Python 3.7+ (for `dataclasses` on Python 3.7; on 3.10+ it's built-in and used here by default)
+1. **Set up environment**:
 
-Each file is standalone and prints a short demonstration when executed. Use them as learning references or modify them to experiment further.
+   ```bash
+   python -m venv .venv
+   # Windows:
+   .venv\Scripts\activate
+   # macOS/Linux:
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+2. **Explore categories**:
+   - Start with `basics/` for fundamental concepts
+   - Move to `oop/` for object-oriented programming
+   - Try `data-science/` for data analysis libraries
+   - Use `utilities/` for practical system tools
+
+3. **Run examples**:
+
+   ```bash
+   cd basics
+   python file_json_example.py
+   ```
+
+## 📚 Learning Categories
+
+See the main `Examples/README.md` for a comprehensive overview of all available examples and learning paths.
+
+## 🔄 Migration Note
+
+This folder previously contained all examples directly. They have been reorganized into topic-specific subfolders (`basics/`, `oop/`, `data-science/`, `utilities/`) for better organization and easier navigation.
+
+The `Examples/` folder contains the main project documentation and overview.
